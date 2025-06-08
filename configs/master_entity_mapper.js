@@ -15,6 +15,10 @@ const MASTER_ENTITY_MAPPER = Object.freeze({
       SIZE: null,
       is_foreign_key: true,
     },
+    CREATED_BY: {
+      NAME: "created_by",
+      SIZE: null,
+    },
     CREATED_AT: {
       NAME: "created_at",
       SIZE: null,
