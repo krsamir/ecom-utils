@@ -9,15 +9,15 @@ const LOCATION = Object.freeze({
       NAME: "name",
       SIZE: 50,
     },
-    GST: {
+    CITY: {
       NAME: "city",
       SIZE: 50,
     },
-    ADDRESS: {
+    STATE: {
       NAME: "state",
       SIZE: 50,
     },
-    IS_ACTIVE: {
+    COUNTRY: {
       NAME: "country",
       SIZE: 50,
     },
