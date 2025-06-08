@@ -37,20 +37,25 @@ const ENTITY = Object.freeze({
     MAX_ADMINS: {
       NAME: "max_admin",
       SIZE: null,
+      DEFAULT_TO: 2,
     },
     MAX_MANAGER: {
       NAME: "max_manager",
       SIZE: null,
+      DEFAULT_TO: 4,
     },
     CATEGORIES: {
       NAME: "categories",
       SIZE: null,
       CATEGORIES_ARR: {
-        SUPER_ADMIN: "SUPER_ADMIN",
-        ADMIN: "ADMIN",
-        MANAGER: "MANAGER",
-        DELIVERY_PARTNER: "DELIVERY_PARTNER",
+        GROCERY: "GROCERY",
+        COSMETICS: "COSMETICS",
+        STATIONARY: "STATIONARY",
       },
+    },
+    CREATED_BY: {
+      NAME: "created_by",
+      SIZE: 50,
     },
     CREATED_AT: {
       NAME: "created_at",
