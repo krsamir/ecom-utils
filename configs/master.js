@@ -25,13 +25,13 @@ const MASTER = Object.freeze({
       NAME: "password",
       SIZE: 500,
     },
-    LAST_LOGIN: {
-      NAME: "last_login",
-      SIZE: null,
-    },
     MOBILE: {
       NAME: "mobile",
       SIZE: 12,
+    },
+    LAST_LOGIN: {
+      NAME: "last_login",
+      SIZE: null,
     },
     TOKEN: {
       NAME: "token",
@@ -52,11 +52,16 @@ const MASTER = Object.freeze({
     INVALID_LOGINS: {
       NAME: "invalid_logins",
       SIZE: null,
+      DEFAULT: 10,
     },
     ROLE_ID: {
       NAME: "role_id",
       SIZE: null,
       is_foreign_key: true,
+    },
+    CREATED_BY: {
+      NAME: "created_by",
+      SIZE: 20,
     },
     CREATED_AT: {
       NAME: "created_at",
