@@ -5,7 +5,7 @@ const ROLE = Object.freeze({
       NAME: "id",
       SIZE: null,
     },
-    USER_NAME: {
+    NAME: {
       NAME: "name",
       SIZE: 20,
     },
