@@ -1,5 +1,6 @@
 const LOCATION = Object.freeze({
   NAME: "location",
+  INDEX: "idx_name_city",
   COLUMNS: {
     ID: {
       NAME: "id",
