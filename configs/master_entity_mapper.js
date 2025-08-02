@@ -1,5 +1,6 @@
 const MASTER_ENTITY_MAPPER = Object.freeze({
   NAME: "master_entity_mapper",
+  INDEX: "idx_master_id_entity_id",
   COLUMNS: {
     ID: {
       NAME: "id",
