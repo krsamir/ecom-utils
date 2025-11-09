@@ -57,6 +57,10 @@ const USER = Object.freeze({
       NAME: "updated_at",
       SIZE: null,
     },
+    TENANT_TYPE: {
+      NAME: "tenant_type",
+      SIZE: 20,
+    },
   },
 });
 
