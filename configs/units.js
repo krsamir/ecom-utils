@@ -11,7 +11,7 @@ const UNITS = Object.freeze({
     },
     TYPE: {
       NAME: "type",
-      SIZE: 100,
+      SIZE: 50,
     },
     CREATED_AT: {
       NAME: "created_at",

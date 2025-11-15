@@ -11,12 +11,11 @@ const HSNS = Object.freeze({
     },
     HSN_DESCRIPTION: {
       NAME: "hsn_description",
-      SIZE: 2500,
+      SIZE: 250,
     },
     CGST: {
       NAME: "cgst",
       SIZE: 10,
-      is_foreign_key: true,
     },
     SGST: {
       NAME: "sgst",

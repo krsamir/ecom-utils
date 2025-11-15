@@ -1,5 +1,5 @@
 const PRODUCT = Object.freeze({
-  NAME: "product",
+  NAME: "products",
   COLUMNS: {
     ID: {
       NAME: "id",
@@ -17,11 +17,6 @@ const PRODUCT = Object.freeze({
       NAME: "description",
       SIZE: 2500,
     },
-    HSN_ID: {
-      NAME: "hsn_id",
-      SIZE: 25,
-      is_foreign_key: true,
-    },
     BARCODE: {
       NAME: "barcode",
       SIZE: 25,
@@ -29,6 +24,11 @@ const PRODUCT = Object.freeze({
     UNIT: {
       NAME: "unit",
       SIZE: 10,
+    },
+    HSN_ID: {
+      NAME: "hsn_id",
+      SIZE: 25,
+      is_foreign_key: true,
     },
     UNIT_TYPE: {
       NAME: "unit_type",
@@ -40,10 +40,6 @@ const PRODUCT = Object.freeze({
       SIZE: null,
       is_foreign_key: true,
     },
-    IS_DELETED: {
-      NAME: "is_deleted",
-      SIZE: null,
-    },
     CREATED_BY: {
       NAME: "created_by",
       SIZE: 20,
@@ -53,6 +49,14 @@ const PRODUCT = Object.freeze({
       NAME: "updated_by",
       SIZE: null,
       is_foreign_key: true,
+    },
+    IS_ACTIVE: {
+      NAME: "is_active",
+      SIZE: null,
+    },
+    IS_DELETED: {
+      NAME: "is_deleted",
+      SIZE: null,
     },
     CREATED_AT: {
       NAME: "created_at",
