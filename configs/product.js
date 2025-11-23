@@ -13,6 +13,10 @@ const PRODUCT = Object.freeze({
       NAME: "name",
       SIZE: 100,
     },
+    HINDI_NAME: {
+      NAME: "hindi_name",
+      SIZE: 100,
+    },
     DESCRIPTION: {
       NAME: "description",
       SIZE: 2500,

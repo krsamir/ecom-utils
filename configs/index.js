@@ -7,6 +7,7 @@ const PRODUCT = require("./product");
 const HSNS = require("./hsns");
 const UNITS = require("./units");
 const CATEGORIES = require("./categories");
+const TEMPLATES = require("./templates");
 const MASTER_ENTITY_MAPPER = require("./master_entity_mapper");
 const CATEGORIES_PRODUCT_MAPPER = require("./categories_product_mapper");
 
@@ -22,6 +23,7 @@ const MODELS = {
   UNITS,
   CATEGORIES,
   CATEGORIES_PRODUCT_MAPPER,
+  TEMPLATES,
 };
 
 module.exports = MODELS;
