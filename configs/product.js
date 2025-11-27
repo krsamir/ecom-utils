@@ -1,5 +1,6 @@
 const PRODUCT = Object.freeze({
   NAME: "products",
+  DRAFT: "products_draft",
   COLUMNS: {
     ID: {
       NAME: "id",
