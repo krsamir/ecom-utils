@@ -24,7 +24,7 @@ const PRODUCT = Object.freeze({
     },
     BARCODE: {
       NAME: "barcode",
-      SIZE: 25,
+      SIZE: 100,
     },
     UNIT: {
       NAME: "unit",

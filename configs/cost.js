@@ -44,6 +44,10 @@ const COST = Object.freeze({
       NAME: "version",
       SIZE: 10,
     },
+    ENTITY_ID: {
+      NAME: "entity_id",
+      SIZE: 10,
+    },
     PRODUCT_ID: {
       NAME: "product_id",
       is_foreign_key: true,
