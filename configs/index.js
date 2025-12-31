@@ -10,6 +10,7 @@ const CATEGORIES = require("./categories");
 const TEMPLATES = require("./templates");
 const COST = require("./cost");
 const STOCKS = require("./stocks");
+const MEDIA = require("./media");
 const MASTER_ENTITY_MAPPER = require("./master_entity_mapper");
 const CATEGORIES_PRODUCT_MAPPER = require("./categories_product_mapper");
 
@@ -28,6 +29,7 @@ const MODELS = {
   TEMPLATES,
   COST,
   STOCKS,
+  MEDIA,
 };
 
 module.exports = MODELS;
