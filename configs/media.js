@@ -1,5 +1,6 @@
 const MEDIA = Object.freeze({
   NAME: "media",
+  DRAFT: "media_draft",
   COLUMNS: {
     ID: {
       NAME: "id",
