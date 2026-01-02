@@ -22,6 +22,14 @@ const STOCKS = Object.freeze({
       NAME: "source",
       SIZE: 50,
     },
+    HASH: {
+      NAME: "hash",
+      SIZE: 100,
+    },
+    QUANTITY: {
+      NAME: "quantity",
+      SIZE: 10,
+    },
     ENTITY_ID: {
       NAME: "entity_id",
       SIZE: 10,

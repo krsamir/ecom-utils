@@ -36,6 +36,10 @@ const COST = Object.freeze({
       NAME: "valid_from",
       SIZE: null,
     },
+    HASH: {
+      NAME: "hash",
+      SIZE: 100,
+    },
     VALID_TO: {
       NAME: "valid_to",
       SIZE: null,

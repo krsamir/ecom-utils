@@ -30,6 +30,10 @@ const PRODUCT = Object.freeze({
       NAME: "unit",
       SIZE: 10,
     },
+    HASH: {
+      NAME: "hash",
+      SIZE: 100,
+    },
     HSN_ID: {
       NAME: "hsn_id",
       SIZE: 25,

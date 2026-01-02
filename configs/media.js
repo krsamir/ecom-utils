@@ -30,6 +30,10 @@ const MEDIA = Object.freeze({
       NAME: "sequence",
       SIZE: 20,
     },
+    HASH: {
+      NAME: "hash",
+      SIZE: 100,
+    },
     IS_ACTIVE: {
       NAME: "is_active",
       SIZE: null,
