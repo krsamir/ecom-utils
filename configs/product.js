@@ -34,6 +34,20 @@ const PRODUCT = Object.freeze({
       NAME: "hash",
       SIZE: 100,
     },
+    MASTER_HASH: {
+      NAME: "master_hash",
+      SIZE: 100,
+    },
+    STATUS: {
+      NAME: "status",
+      SIZE: null,
+      enum: ["INITIALIZED", "PENDING", "FAILED", "COMPLETED"],
+      default: "INITIALIZED",
+    },
+    IS_SYNCED: {
+      NAME: "is_synced",
+      SIZE: null,
+    },
     HSN_ID: {
       NAME: "hsn_id",
       SIZE: 25,

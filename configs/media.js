@@ -38,10 +38,6 @@ const MEDIA = Object.freeze({
       NAME: "is_active",
       SIZE: null,
     },
-    IS_DRAFT: {
-      NAME: "is_draft",
-      SIZE: null,
-    },
     ENTITY_ID: {
       NAME: "entity_id",
       SIZE: 10,
